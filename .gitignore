@@ -186,3 +186,10 @@ memory.db
 # Ignore Accounts database in MCP protocol module
 mcp_protocol/accounts.db
 mcp_protocol/memory/*.db
+mcp_protocol/memory/*.txt
+
+# Ignore AutoGen tickets database
+autogen_systems/tickets.db
+
+# Ignore portfolio setup scripts
+setup_portfolio_history.ps1
